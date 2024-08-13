@@ -48,25 +48,10 @@
     margin-right: 10px;
     vertical-align: middle;
 }
-
-.media-icons.facebook {
-    background-image: url('facebook-icon.png');
-}
-
-.media-icons.twitter {
-    background-image: url('twitter-icon.png');
-}
-
-.media-icons.instagram {
-    background-image: url('instagram-icon.png');
-}
-
-.media-icons.linkedin {
-    background-image: url('linkedin-icon.png');
-}
-
-.media-icons.youtube {
-    background-image: url('youtube-icon.png');
+div.media-icons,src
+{
+	text-align:right;
+	display:flex;
 }
 
 /* Responsive Design */
