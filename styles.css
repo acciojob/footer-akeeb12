@@ -1,12 +1,9 @@
-/* your code here */
-
 /* Footer Styling */
 .footer {
-    background-color: black;
+    background-color: #f8f9fa;
     padding: 20px;
     color: #333;
     border-top: 1px solid #ddd;
-	color:white;
 }
 
 .footer-container {
@@ -52,6 +49,26 @@
     vertical-align: middle;
 }
 
+.media-icons.facebook {
+    background-image: url('facebook-icon.png');
+}
+
+.media-icons.twitter {
+    background-image: url('twitter-icon.png');
+}
+
+.media-icons.instagram {
+    background-image: url('instagram-icon.png');
+}
+
+.media-icons.linkedin {
+    background-image: url('linkedin-icon.png');
+}
+
+.media-icons.youtube {
+    background-image: url('youtube-icon.png');
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .footer-container {
@@ -59,8 +76,3 @@
         align-items: flex-start;
     }
 }
-div.media-icons
-{
-	display:flex;
-}
-
